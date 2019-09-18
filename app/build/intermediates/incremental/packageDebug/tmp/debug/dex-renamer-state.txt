@@ -1,0 +1,4 @@
+#Wed Sep 18 14:25:21 IRDT 2019
+base.0=C\:\\Users\\Ali Gadimi\\Desktop\\ImageHelper\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+path.0=classes.dex
+renamed.0=classes.dex

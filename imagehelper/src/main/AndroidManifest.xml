@@ -1,2 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.agadimi.imagehelper" />
+    package="com.agadimi.imagehelper">
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+</manifest>
