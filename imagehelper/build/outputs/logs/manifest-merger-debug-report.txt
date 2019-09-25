@@ -1,30 +1,60 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:1:1-5:12
-INJECTED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:1:1-5:12
-INJECTED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:1:1-5:12
-INJECTED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:1:1-5:12
-INJECTED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:1:1-5:12
-INJECTED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:1:1-5:12
-INJECTED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:1:1-5:12
+ADDED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:2:1-26:12
 	package
-		ADDED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:2:5-38
+		ADDED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:3:5-38
 		INJECTED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:1:1-5:12
+		ADDED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:2:1-26:12
 		INJECTED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:1:1-5:12
+		ADDED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:2:1-26:12
 		INJECTED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:1:11-69
-uses-permission#android.permission.CAMERA
-ADDED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:4:5-64
+		ADDED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:5:5-80
 	android:name
-		ADDED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:4:22-62
+		ADDED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:5:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:6:5-8:38
+	android:maxSdkVersion
+		ADDED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:8:9-35
+	android:name
+		ADDED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:7:9-65
+application
+ADDED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:10:5-25:19
+activity#com.agadimi.imagehelper.ui.photopicker.ActivityPickHandler
+ADDED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:11:9-13:50
+	android:theme
+		ADDED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:13:13-47
+	android:name
+		ADDED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:12:13-63
+provider#androidx.core.content.FileProvider
+ADDED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:15:9-23:20
+	android:grantUriPermissions
+		ADDED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:19:13-47
+	android:authorities
+		ADDED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:17:13-64
+	android:exported
+		ADDED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:16:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:20:13-22:54
+	android:resource
+		ADDED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:22:17-51
+	android:name
+		ADDED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml:21:17-67
 uses-sdk
 INJECTED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Ali Gadimi\Desktop\ImageHelper\imagehelper\src\main\AndroidManifest.xml

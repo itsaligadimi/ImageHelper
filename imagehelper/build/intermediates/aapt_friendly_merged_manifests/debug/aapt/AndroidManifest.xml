@@ -8,6 +8,25 @@
         android:minSdkVersion="16"
         android:targetSdkVersion="28" />
 
-    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application>
+        <activity
+            android:name="com.agadimi.imagehelper.ui.photopicker.ActivityPickHandler"
+            android:theme="@style/Transparent" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="dollar_openBracket_applicationId_closeBracket.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
 
 </manifest>

@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="dark_gray">#333</color>
+    <color name="dark_gray_v2">#8B8B8B</color>
+    <color name="gray">#f3f3f3</color>
+    <color name="white">#ffffff</color>
     <string name="app_name">ImageHelper</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="import_photo">Import photo</string>
+    <style name="Transparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
 </resources>

@@ -1,7 +1,7 @@
 #Internal package file, do not edit.
-#Wed Sep 18 14:25:21 IRDT 2019
+#Wed Sep 18 16:53:22 IRDT 2019
 0.baseType=DIRECTORY
-0.base=C\:\\Users\\Ali Gadimi\\Desktop\\ImageHelper\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+0.base=C\:\\Users\\Ali Gadimi\\Desktop\\ImageHelper\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 0.path=classes.dex
 0.set=DEX
 count=1

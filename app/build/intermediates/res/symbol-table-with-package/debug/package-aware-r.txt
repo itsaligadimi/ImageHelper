@@ -387,6 +387,7 @@ color abc_tint_spinner
 color abc_tint_switch_track
 color accent_material_dark
 color accent_material_light
+color background
 color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
@@ -402,6 +403,8 @@ color button_material_light
 color colorAccent
 color colorPrimary
 color colorPrimaryDark
+color dark_gray
+color dark_gray_v2
 color dim_foreground_disabled_material_dark
 color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
@@ -410,6 +413,7 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color gray
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color material_blue_grey_800
@@ -448,6 +452,7 @@ color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
 color tooltip_background_dark
 color tooltip_background_light
+color white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -659,6 +664,8 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable ic_camera
+drawable ic_gallery
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable notification_action_background
@@ -673,6 +680,8 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable round_border_white
+drawable round_white
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -742,6 +751,7 @@ id beginning
 id blocking
 id bottom
 id buttonPanel
+id camera_btn
 id center_vertical
 id chains
 id checkbox
@@ -763,6 +773,7 @@ id end
 id expand_activities_button
 id expanded_menu
 id forever
+id gallery_btn
 id gone
 id group_divider
 id groups
@@ -772,6 +783,7 @@ id icon
 id icon_group
 id ifRoom
 id image
+id image_view
 id info
 id invisible
 id italic
@@ -795,6 +807,7 @@ id packed
 id parent
 id parentPanel
 id percent
+id pick_photo_btn
 id progress_circular
 id progress_horizontal
 id radio
@@ -898,7 +911,9 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_pick_handler
 layout custom_dialog
+layout dialog_photo_picker
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big
@@ -939,6 +954,9 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
+string camera
+string gallery
+string import_photo
 string search_menu_title
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat
@@ -1216,6 +1234,7 @@ style ThemeOverlay_AppCompat_DayNight_ActionBar
 style ThemeOverlay_AppCompat_Dialog
 style ThemeOverlay_AppCompat_Dialog_Alert
 style ThemeOverlay_AppCompat_Light
+style Transparent
 style Widget_AppCompat_ActionBar
 style Widget_AppCompat_ActionBar_Solid
 style Widget_AppCompat_ActionBar_TabBar
@@ -1337,3 +1356,4 @@ styleable Toolbar android_gravity android_minHeight buttonGravity collapseConten
 styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewStubCompat android_id android_layout android_inflatedId
+xml file_paths
