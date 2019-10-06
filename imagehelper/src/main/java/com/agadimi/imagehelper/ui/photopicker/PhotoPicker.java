@@ -42,9 +42,7 @@ public class PhotoPicker extends Dialog
     public void setCameraViewId(int cameraViewId)
     {
         findViewById(cameraViewId).setOnClickListener(v -> {
-            Intent intent = new Intent(activity, ActivityPickHandler.class);
-            intent.putExtra("action", PICK_FROM_CAMERA);
-            activity.startActivityForResult(intent, PICK_FROM_CAMERA);
+            launchCamera();
             dismiss();
         });
     }
@@ -52,11 +50,23 @@ public class PhotoPicker extends Dialog
     public void setGalleryViewId(int galleryViewId)
     {
         findViewById(galleryViewId).setOnClickListener(v -> {
-            Intent intent = new Intent(activity, ActivityPickHandler.class);
-            intent.putExtra("action", PICK_FROM_GALLERY);
-            activity.startActivityForResult(intent, PICK_FROM_GALLERY);
+            launchGallery();
             dismiss();
         });
+    }
+
+    public void launchCamera()
+    {
+        Intent intent = new Intent(activity, ActivityPickHandler.class);
+        intent.putExtra("action", PICK_FROM_CAMERA);
+        activity.startActivityForResult(intent, PICK_FROM_CAMERA);
+    }
+
+    public void launchGallery()
+    {
+        Intent intent = new Intent(activity, ActivityPickHandler.class);
+        intent.putExtra("action", PICK_FROM_GALLERY);
+        activity.startActivityForResult(intent, PICK_FROM_GALLERY);
     }
 
     public void setPickResultListener(PickResultListener pickResultListener)
